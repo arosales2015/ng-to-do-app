@@ -1,0 +1,29 @@
+<div>
+    <div class="info">
+        <label for="task-title">
+            <strong>Título:</strong><br>
+            <input type="text" id="task-title" [(ngModel)]="displayText">
+        </label>
+    </div>
+    <br>
+
+    <div class="info">
+        <label for="task-description">
+            <strong>Descripción</strong><br>
+            <input type="text" name="" id="task-description" [(ngModel)]="description">
+        </label>
+    </div>
+    <br>
+    
+    <div class="info">
+        <label for="task-status">
+            <strong>Estado:</strong><br>
+            <select name="" id="task-status" [(ngModel)]="status">
+                <option value="done">Hecho</option>
+                <option value="onGoin">En curso</option>
+                <option value="pending">Pendiente</option>
+            </select>
+        </label>
+    </div>
+    
+</div> 
